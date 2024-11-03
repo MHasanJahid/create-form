@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#section{
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+}
+.sp1{
+    width: 35%;
+    height: 74.7vh;
+    background-color: darkslateblue;
+    padding: 50px 25px 30px 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+
+}
+.sp1 p{
+    font-size: 15px;
+    margin: 15px 0px;
+
+}
+.common-div{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.common-div p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-top: 200px;
+    
+}
+.icon img{
+    margin-left: 50px;
+    color: #fff;
+}
+.sp2{
+    width: 30%;
+    margin: 50px auto;
+    
+}
+.contact p{
+    margin: 20px 0px;
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+}
+label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.gmail{
+    color: blue;
+}
+.input-label{
+    margin-bottom: 20px;
+}
+.input-label input{
+    width: 97%;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 0px 3px 10px;
+}
+::-webkit-input-placeholder{
+    padding: 3px 0px 3px 10px;
+    color: black;
+}
+.text-area{
+    width: 98%;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 0px 3px 10px;
+}
+.label{
+    display: inline-block;
+}
+/* .services{
+    display: flex;
+    flex-direction: column;
+} */
+.services1{
+    display: inline-block;
+}
